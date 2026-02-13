@@ -565,7 +565,7 @@ body::before {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 50px;
+    width: 100%;
     height: 3px;
     background: var(--primary-gradient);
     border-radius: 2px;
@@ -1279,4 +1279,19 @@ body::before {
 ::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(135deg, #5566d2 0%, #653a8a 100%);
 
+}
+
+.aiuto-page {
+    --primary-gradient: linear-gradient(135deg, #37e5c2, #08f09b);
+    --danger-gradient: linear-gradient(135deg, #34dfbd, #12e397);
+}
+
+.cyberbullismo-page {
+    --primary-gradient: linear-gradient(135deg, #2d9cdb, #2f80ed);
+    --danger-gradient: linear-gradient(135deg, #1c5fd4, #3b82f6);
+}
+
+.forme-page {
+    --primary-gradient: linear-gradient(135deg, #9b51e0, #6c5ce7);
+    --danger-gradient: linear-gradient(135deg, #7e3ff2, #5a4fcf);
 }
