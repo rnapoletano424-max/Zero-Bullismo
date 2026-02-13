@@ -454,7 +454,7 @@ body::before {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 60px;
+    width: 20%;
     height: 3px;
     background: var(--primary-gradient);
     border-radius: 2px;
@@ -1278,4 +1278,5 @@ body::before {
 
 ::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(135deg, #5566d2 0%, #653a8a 100%);
+
 }
