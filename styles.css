@@ -542,7 +542,7 @@ body::before {
    =================================== */
 
 .content-section {
-    background: rgba(26, 31, 46, 0.6);
+    background: rgba(20, 40, 80, 0.7);
     backdrop-filter: var(--backdrop-blur);
     border: 1px solid var(--border-color);
     padding: 2.5rem;
@@ -1295,3 +1295,4 @@ body::before {
     --primary-gradient: linear-gradient(135deg, #9b51e0, #6c5ce7);
     --danger-gradient: linear-gradient(135deg, #7e3ff2, #5a4fcf);
 }
+
