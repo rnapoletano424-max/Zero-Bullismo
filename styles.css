@@ -8,7 +8,7 @@
     --secondary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
     --danger-gradient: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%);
     --success-gradient: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
-    --warning-gradient: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+    --warning-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     
     /* Colori solidi */
     --dark-bg: #0f1419;
@@ -1295,4 +1295,5 @@ body::before {
     --primary-gradient: linear-gradient(135deg, #9b51e0, #6c5ce7);
     --danger-gradient: linear-gradient(135deg, #7e3ff2, #5a4fcf);
 }
+
 
