@@ -6,7 +6,7 @@
     /* Colori Vibranti */
     --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     --secondary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --danger-gradient: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%);
+    --danger-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     --success-gradient: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
     --warning-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     
@@ -1295,6 +1295,7 @@ body::before {
     --primary-gradient: linear-gradient(135deg, #9b51e0, #6c5ce7);
     --danger-gradient: linear-gradient(135deg, #7e3ff2, #5a4fcf);
 }
+
 
 
 
