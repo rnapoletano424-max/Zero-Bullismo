@@ -1056,7 +1056,7 @@ body::before {
    FOOTER PREMIUM
    =================================== */
 
-footer {
+.footer {
     background: rgba(15, 20, 25, 0.8);
     border-top: 1px solid rgba(255,255,255,0.1);
     padding: 3rem 2rem;
@@ -1298,6 +1298,7 @@ footer {
     --primary-gradient: linear-gradient(135deg, #9b51e0, #6c5ce7);
     --danger-gradient: linear-gradient(135deg, #7e3ff2, #5a4fcf);
 }
+
 
 
 
