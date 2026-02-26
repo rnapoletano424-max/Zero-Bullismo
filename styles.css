@@ -5,10 +5,10 @@
 :root {
     /* Colori Vibranti */
     --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --secondary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --danger-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --success-gradient: linear-gradient(135deg, #7e3ff2, #5a4fcf 100%);
-    --warning-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --secondary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    --danger-gradient: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%);
+    --success-gradient: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+    --warning-gradient: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
     
     /* Colori solidi */
     --dark-bg: #0f1419;
@@ -542,7 +542,7 @@ body::before {
    =================================== */
 
 .content-section {
-    background: rgba(20, 40, 80, 0.7);
+    background: rgba(26, 31, 46, 0.6);
     backdrop-filter: var(--backdrop-blur);
     border: 1px solid var(--border-color);
     padding: 2.5rem;
@@ -961,7 +961,7 @@ body::before {
    =================================== */
 
 .warning-box {
-    background: linear-gradient(135deg, rgba(102, 126, 234, 0.3), rgba(102, 126, 234, 0.15 100%);
+    background: linear-gradient(135deg, rgba(250, 112, 154, 0.15) 0%, rgba(254, 225, 64, 0.15) 100%);
     border: 1px solid rgba(250, 112, 154, 0.3);
     border-left: 4px solid;
     border-image: var(--warning-gradient) 1;
@@ -1058,16 +1058,13 @@ body::before {
 
 .footer {
     background: rgba(15, 20, 25, 0.8);
-    border-top: 1px solid rgba(255,255,255,0.1);
+    border-top: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    text-align: center;
     padding: 3rem 2rem;
     margin-top: 4rem;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;   /* CENTRA ORIZZONTALMENTE */
-    justify-content: center;
-    text-align: center;    /* CENTRA IL TESTO */
-
+    backdrop-filter: var(--backdrop-blur);
+    animation: slideUp 0.6s ease-out;
 }
 
 @keyframes slideUp {
@@ -1298,12 +1295,4 @@ body::before {
     --primary-gradient: linear-gradient(135deg, #9b51e0, #6c5ce7);
     --danger-gradient: linear-gradient(135deg, #7e3ff2, #5a4fcf);
 }
-
-
-
-
-
-
-
-
 
